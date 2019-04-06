@@ -1,5 +1,5 @@
 # randTab
-Click the icon to hop to a random tab of the active browser window.  
+Click the icon to switch to a random tab of the active browser window.  
 
 ## Normal distribution function
 ```javascript
