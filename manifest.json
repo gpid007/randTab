@@ -12,6 +12,6 @@
       "128": "dice.png"
    },
    "name": "randTab",
-   "permissions": [ "tabs" ],
+   "permissions": [ "tabs", "windows" ],
    "version": "0.1"
 }
