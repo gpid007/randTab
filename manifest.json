@@ -1,17 +1,24 @@
 {
+   "name": "randTab",
+   "version": "0.1",
    "manifest_version": 2,
-   "background": { "page": "log.html" },
+   "description": "Switch to a random tab of the active browser window.",
+   "background": { 
+      "page": "log.html" 
+   },
    "browser_action": {
       "default_icon": "dice.png",
       "default_title": "Random Tab"
    },
-   "description": "Switch to a random tab of the active browser window.",
    "icons": {
       "48": "dice.png",
       "96": "dice.png",
       "128": "dice.png"
    },
-   "name": "randTab",
-   "permissions": [ "tabs", "windows" ],
-   "version": "0.1"
+   "permissions": [ 
+      "tabs", 
+      "windows",
+      "https://*/*",
+      "http://*/*"
+   ]
 }
