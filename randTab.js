@@ -1,6 +1,7 @@
 /* BACKGROUND_SCRIPT */
 
 // Listener event: executed on icon click 
+
 chrome.browserAction.onClicked.addListener(function (tab) {
 console.log(tab);
 
@@ -23,6 +24,8 @@ console.log(tab);
 
         });
 });
+
+
 
 /*
 You have only included jQuery on your background page. You should be injecting jQuery onto the tab you're executing script.js on.
