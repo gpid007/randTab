@@ -15,7 +15,10 @@ console.log(tab);
             console.log(tabs[ix].url);
             // window.open(tabs[ix].url);
 
-            chrome.tabs.executeScript(tabs[ix].id, {file: "inject.js"});
+        
+            //chrome.tabs.executeScript(tabs[ix].id, {file: "inject.js"}, function(){
+                chrome.tabs.executeScript(tabs[ix].id, {file: "inject.js"});
+            //});
             console.log("script injected");
 
         });
