@@ -1,4 +1,4 @@
-// Listener event: executed on icon click 
+
 chrome.browserAction.onClicked.addListener(function (tab) {
     console.log('chrome.browserAction.onClicked.addListener()', tab);
 

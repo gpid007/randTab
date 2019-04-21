@@ -3,21 +3,7 @@
    "version": "0.1",
    "manifest_version": 2,
    "description": "Switch to a random tab of the active browser window.",
-//
-//   "background": {
-//      "scripts": ["background.js"]
-//   },
-//
-//   "content_scripts": [
-//      {
-//         "matches": ["*://*/*"],
-//         "js": ["randTab.js"]
-//      },{
-//         "matches": ["*://*galleries*/*"],
-//         "js": ["jquery-3.3.1.js", "inject.js"]
-//      }
-//   ],
-//
+
    "background": { "page": "log.html" }, 
 
    "browser_action": {
