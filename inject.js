@@ -1,10 +1,14 @@
 
-document.body.style.background = '#cccccc';
+document.body.style.background = '#e6e6e6';
 
 var imageList = $('li.thumbwook').find('a.rel-link');
+console.log('IMAGE LIST: ', imageList);
+
 for (var i=0; i<imageList.length; i++) {
     if ( imageList[i].getAttribute('data-size') != null ) {
-        window.open(imageList[i].getAttribute('href'), '__blank');
-        console.log(imageList[i].getAttribute('href'));
+        // console.log(imageList[i].getAttribute('href'));
+        window.open(imageList[i].getAttribute('href')); 
     }
 }
+
+console.log('');
